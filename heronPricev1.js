@@ -28,7 +28,7 @@ async function buildWidget() {
   const usdRate = await getUSDExchangeRate();
   const heronPriceUSD = (parseFloat(heronPrice) * parseFloat(usdRate)).toFixed(5);
   
-  addCrypto(heronImage, '${heronPrice} KDA', '$${heronPriceUSD} USD');
+  addCrypto(heronImage, `${heronPrice} KDA`, `$${heronPriceUSD} USD`);
 }
 
 function addCrypto(image, kdaPrice, usdPrice) {
