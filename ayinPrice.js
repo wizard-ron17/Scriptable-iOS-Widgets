@@ -15,7 +15,7 @@ const headerStack = widget.addStack();
 headerStack.setPadding(0, 5, 0, 0);
 const headerText = headerStack.addText("$AYIN Price");
 headerText.font = Font.semiboldSystemFont(18);
-  headerText.textColor = new Color('#FFFFFF');
+  headerText.textColor = new Color('#FF6500');
 
 async function buildWidget() {
   const ayinImage = await loadImage('https://raw.githubusercontent.com/alephium/token-list/master/logos/AYIN.png');
