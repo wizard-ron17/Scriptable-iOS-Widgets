@@ -9,7 +9,7 @@ if (isDarkTheme) {
 }
 widget.setPadding(padding, padding, padding, padding);
 
-widget.url = 'https://dexscreener.com/solana/53vkphezqcbuyugc3sg3p9fnrthclu8uz5wghkxbfavg';
+widget.url = 'https://dexscreener.com/solana/EFe7Zf1Wu4YEvtrJzXugX5VgLnGx3EejsVwMSLroEmJJ';
 
 const headerStack = widget.addStack();
 headerStack.setPadding(0, 20, 0, 0);
