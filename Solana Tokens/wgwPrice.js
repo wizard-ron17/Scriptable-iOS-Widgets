@@ -40,7 +40,7 @@ function addCrypto(image, solPrice, priceChangeInfo, usdPrice) {
   const priceUSDStack = rowStack.addStack();
   const changeStack = rowStack.addStack();
 
-  imageStack.setPadding(0, 45, 0, 0);
+  imageStack.setPadding(5, 45, 5, 0);
 
   const imageNode = imageStack.addImage(image);
   imageNode.imageSize = new Size(50, 50);
