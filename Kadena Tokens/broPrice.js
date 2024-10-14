@@ -9,7 +9,7 @@ if (isDarkTheme) {
 }
 widget.setPadding(padding, padding, padding, padding);
 
-widget.url = 'https://swap.ecko.finance/?token0=KDA&token1=BRO';
+widget.url = 'https://www.mercatus.works/?token0=KDA&token1=BRO';
 
 const headerStack = widget.addStack();
 headerStack.setPadding(0, 0, 0, 0);
