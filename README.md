@@ -13,7 +13,7 @@ This guide provides a simple way to add a custom token price widget to your iOS 
    - Name your script (e.g., “token-widget”).
 
 3. **Get the Widget Code**  
-   - Pick a token/file from this repository. They are organized into [Alephium] (https://github.com/wizard-ron17/Scriptable-iOS-Widgets/tree/main/Alephium%20Tokens), [Kadena] (https://github.com/wizard-ron17/Scriptable-iOS-Widgets/tree/main/Kadena%20Tokens), and [Solana] (https://github.com/wizard-ron17/Scriptable-iOS-Widgets/tree/main/Solana%20Tokens) folders.
+   - Pick a token/file from this repository. They are organized into [Alephium](https://github.com/wizard-ron17/Scriptable-iOS-Widgets/tree/main/Alephium%20Tokens), [Kadena](https://github.com/wizard-ron17/Scriptable-iOS-Widgets/tree/main/Kadena%20Tokens), and [Solana](https://github.com/wizard-ron17/Scriptable-iOS-Widgets/tree/main/Solana%20Tokens) folders.
    - Carefully copy only the code section. You can click the three dots in the top right corner of the code block on GitHub and select **Copy**.
 
 4. **Paste the Code into Scriptable**  
