@@ -7,7 +7,7 @@ if (isDarkTheme) {
   widget.backgroundColor = new Color('#1C1C1E');
 }
 widget.setPadding(padding, padding, padding, padding);
-widget.url = 'https://www.elexium.finance';
+widget.url = 'https://sexy-pepe.xyz';
 
 // Add header
 const headerStack = widget.addStack();
