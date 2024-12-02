@@ -69,7 +69,7 @@ function addCrypto(image, kdaPrice, priceChangeInfo, usdPrice) {
 }
 
 async function getTokenPriceInfo() {
-  const url = 'https://kdswap-fd-prod-cpeabrdfgdg9hzen.z01.azurefd.net/graphql?query={price(token:"kdlaunch.kdswap-token", period:1){id,timestamp,token,price,priceInKda,intervalStamp}}';
+  const url = 'https://api.kdswap.exchange/graphql?query={price(token:"kdlaunch.kdswap-token", period:1){id,timestamp,token,price,priceInKda,intervalStamp}}';
   const req = new Request(url);
   const apiResult = await req.loadJSON();
   const firstPrice = apiResult['data']['price'][0].priceInKda;
@@ -88,7 +88,7 @@ async function loadImage(imgUrl) {
 }
 
 async function getPriceChangeInfo() {
-  const url = 'https://kdswap-fd-prod-cpeabrdfgdg9hzen.z01.azurefd.net/graphql?query={price(token:"kdlaunch.kdswap-token",period:1){id,timestamp,token,price,priceInKda,intervalStamp}}';
+  const url = 'https://api.kdswap.exchange/graphql?query={price(token:"kdlaunch.kdswap-token",period:1){id,timestamp,token,price,priceInKda,intervalStamp}}';
   const req = new Request(url);
   const apiResult = await req.loadJSON();
   const firstPrice = apiResult['data']['price'][0].priceInKda;
