@@ -3,7 +3,7 @@ const goal = 200000;
 
 const widget = new ListWidget();
 widget.setPadding(16, 16, 16, 16);
-widget.url = "https://app.alphpad.com/launchpad/1000022/sale_v3";
+widget.url = "https://app.alphpad.com/launchpad/1000023/sale_v3";
 
 widget.backgroundColor = Color.dynamic(
   new Color("#FFFFFF"),
