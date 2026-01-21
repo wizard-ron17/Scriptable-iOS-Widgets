@@ -1,6 +1,3 @@
-** THIS WIDGET DOES NOT CURRENTLY WORK DUE TO ELEXIUM API**
-
-/*
 const params = args.widgetParameter ? args.widgetParameter.split(",") : [];
 const isDarkTheme = params?.[0] === 'dark';
 const padding = 10;
